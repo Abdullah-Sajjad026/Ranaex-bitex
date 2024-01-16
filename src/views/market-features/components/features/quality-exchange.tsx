@@ -1,6 +1,7 @@
 import { Box, Center, Heading, Image } from "@chakra-ui/react";
 
-import ImgAppLanding from "@/assets/images/app-landing.png";
+import ImgUSSMBCertified from "@/assets/images/usmsb-licensed.jpg";
+import ImgAISCCertified from "@/assets/images/asic-licensed.jpg"
 import { useTranslation } from "react-i18next";
 
 export default function QualityExchange() {
@@ -17,7 +18,7 @@ export default function QualityExchange() {
         bgPosition="center"
       >
         <Box display="flex" justifyContent="center">
-          <Image src="/app-icon.svg" alt="app icon" w="60px" />
+          <Image src="/logo-square.jpg" alt="app icon" w="60px" />
         </Box>
         <Heading
           variant="title"
@@ -32,8 +33,12 @@ export default function QualityExchange() {
       </Box>
 
       <Center>
-        <Image src={ImgAppLanding} alt="app landing" width="full" />
+        <Image src={ImgUSSMBCertified} alt="app landing" width="full" />
       </Center>
+
+        <Center>
+            <Image src={ImgAISCCertified} alt="app landing" width="full" />
+        </Center>
     </Box>
   );
 }

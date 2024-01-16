@@ -13,6 +13,7 @@ export default function ViewMarketFeatures() {
     <>
       <QualityExchange />
 
+      <FeaturesList />
       <Box
         py="6"
         px="4"
@@ -25,41 +26,41 @@ export default function ViewMarketFeatures() {
         <DownloadCTAs mode="dark" />
       </Box>
 
-      <FeaturesList />
 
-      <FlexibleSavings />
+      {/*<FlexibleSavings />*/}
 
       <CustomerService />
 
-      <ExclusiveInvestments />
+      {/*<ExclusiveInvestments />*/}
 
       <Box
         position="relative"
-        _before={{
-          // Putting a black line upon bottom border to cover white line there
-          content: "''",
-          display: "block",
-          position: "absolute",
-          top: "0",
-          left: "0",
-          width: "100%",
-          height: "2px",
-          bg: "brand.black",
-        }}
+        // _before={{
+        //   // Putting a black line upon bottom border to cover white line there
+        //   content: "''",
+        //   display: "block",
+        //   position: "absolute",
+        //   top: "1",
+        //   left: "0",
+        //   width: "100%",
+        //   height: "1px",
+        //   bg: "brand.black",
+        // }}
         _after={{
           // Putting a black line upon bottom border to cover white line there
           content: "''",
           display: "block",
           position: "absolute",
-          bottom: "0",
+          bottom: "-2",
           left: "0",
           width: "100%",
-          height: "2px",
+          height: "1px",
           bg: "brand.black",
         }}
+
       >
         <Image
-          src={ImgAppBanner}
+          src={'/logo.jpg'}
           alt="app banner"
           width="full"
           position="relative"

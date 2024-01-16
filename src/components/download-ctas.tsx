@@ -50,6 +50,7 @@ export default function DownloadCTAs({
           bgColor={mode === "light" ? "brand.light" : "brand.black2"}
           borderRadius="lg"
           gap="2"
+          cursor="pointer"
           onClick={() => window.open(download.link, "_blank")}
         >
           <Image
