@@ -64,7 +64,7 @@
     "auditReport": "감사 보고서"
   },
   "messages": {
-    "welcomeBonus": "환영 보너스, 최대 ",
+    "welcomeBonus": "글로벌 사용자에게 추천됩니다",
     "alreadyAccount": "이미 계정이 있나요?",
     "gotoLogin": "로그인하러 가기",
     "copyright": "판권 소유",

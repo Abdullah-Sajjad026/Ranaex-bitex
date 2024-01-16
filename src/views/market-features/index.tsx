@@ -13,7 +13,8 @@ export default function ViewMarketFeatures() {
     <>
       <QualityExchange />
 
-      <FeaturesList />
+      {/*<FeaturesList />*/}
+
       <Box
         py="6"
         px="4"

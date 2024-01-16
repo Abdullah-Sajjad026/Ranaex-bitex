@@ -46,7 +46,7 @@ export default function BrandCTA() {
           {t("messages.welcomeBonus")}
           <Text color="brand.blue" display="inline-block">
             {" "}
-            255 USDT
+            Mobile Version
           </Text>
         </Text>
       </Box>

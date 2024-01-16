@@ -1,8 +1,8 @@
 import { Grid, GridItem, Image, Text } from "@chakra-ui/react";
 
 import AppleIcon from "@/assets/images/icons/app-store.svg";
-// import Android from "@/assets/images/android.svg";
-// import TestFlight from "@/assets/images/testflight.svg";
+import Android from "@/assets/images/icons/android.svg";
+import MobileIcon from "@/assets/images/icons/device-mobile.svg";
 import DownloadIcon from "@/assets/images/icons/download.svg";
 import metaData from "@/data/metadata";
 
@@ -14,9 +14,9 @@ export default function DownloadCTAs({
   const downloads = [
     {
       id: 1,
-      icon: AppleIcon,
-      title: "App Store",
-      link: metaData.storesLinks.appStore,
+      icon: MobileIcon,
+      title: "Mobile App",
+      link: metaData.storesLinks.general
     },
     {
       id: 2,
@@ -24,14 +24,20 @@ export default function DownloadCTAs({
       title: "Download",
       link: metaData.storesLinks.general
     },
+    {
+      id: 3,
+      icon: AppleIcon,
+      title: "App Store",
+      link: metaData.storesLinks.appStore,
+    },
+    {
+      id: 4,
+      icon: Android,
+      title: "Android",
+      link: metaData.storesLinks.googlePlay,
+    },
     // {
-    //   id: 3,
-    //   icon: Android,
-    //   title: "Android",
-    //   link: metaData.storesLinks.googlePlay,
-    // },
-    // {
-    //   id: 4,
+    //   id: 1,
     //   icon: TestFlight,
     //   title: "TestFlight",
     //   link: metaData.storesLinks.testFlight,
