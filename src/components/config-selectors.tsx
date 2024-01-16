@@ -10,7 +10,7 @@ import FlagChina from "@/assets/images/flags/flag-china.png";
 import FlagJapan from "@/assets/images/flags/flag-japan.png";
 import FlagKorea from "@/assets/images/flags/flag-korea.png";
 import FlagGermany from "@/assets/images/flags/flag-german.png";
-import FlagFrance from "@/assets/images/flag-france.png";
+import FlagFrance from "@/assets/images/flags/flag-france.png";
 
 const labelsMap = {
   en: (
