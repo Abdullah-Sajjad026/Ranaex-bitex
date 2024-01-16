@@ -45,6 +45,10 @@ export default function Footer() {
               {t("words.auditReport")}
           </Link>
 
+        <Link as={RouterLink} to="/user-agreement" color="white">
+          {t("words.userAgreement")}
+        </Link>
+
       </VStack>
 
       <HStack spacing="4" mt="4" justifyContent="center">

@@ -61,7 +61,8 @@
     "projectDescription": "项目描述",
     "trade": "交易",
     "securityInformation": "安全信息",
-    "auditReport": "审计报告"
+    "auditReport": "审计报告",
+    "userAgreement": "用户协议"
   },
   "messages": {
     "welcomeBonus": "建议全球用户",

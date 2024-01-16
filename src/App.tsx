@@ -13,6 +13,7 @@ import ViewLogin from "./views/login";
 import ViewAbout from "./views/about";
 import ViewSecurityInformation from "@/views/security-information.tsx";
 import ViewAuditReport from "@/views/audit-report.tsx";
+import ViewUserAgreement from "@/views/user-agreement.tsx";
 
 import "./App.css";
 
@@ -36,6 +37,7 @@ function App() {
               <Route path="/" element={<ViewHome />} />
               <Route path={"/about"} element={<ViewAbout />} />
               <Route path={"/security-information"} element={<ViewSecurityInformation />} />
+              <Route path={"/user-agreement"} element={<ViewUserAgreement />} />
               <Route path="/audit-report" element={<ViewAuditReport />} />
               <Route path="/features" element={<ViewMarketFeatures />} />
               <Route path="/coin/:coin" element={<ViewTradeFiat />} />

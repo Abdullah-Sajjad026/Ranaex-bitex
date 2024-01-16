@@ -16,7 +16,7 @@ export default function DownloadCTAs({
       id: 1,
       icon: MobileIcon,
       title: "Mobile App",
-      link: metaData.storesLinks.general
+      link: metaData.storesLinks.mobile
     },
     {
       id: 2,

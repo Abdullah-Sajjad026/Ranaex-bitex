@@ -50,6 +50,9 @@ export default function SideDrawer({
                 Audit Report
               </Link>
 
+              <Link as={RouterLink} to="/user-agreement" onClick={onClose}>
+                User Agreement
+              </Link>
 
               <Link href={LOGIN_URL}>Login</Link>
             </VStack>

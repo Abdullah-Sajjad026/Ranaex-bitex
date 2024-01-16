@@ -61,7 +61,8 @@
     "projectDescription": "Description du Projet",
     "trade": "Trader",
     "securityInformation": "Informations de Sécurité",
-    "auditReport": "Rapport d'Audit"
+    "auditReport": "Rapport d'Audit",
+    "userAgreement": "Contrat d'Utilisateur"
   },
   "messages": {
     "welcomeBonus": "Les utilisateurs du monde entier sont recommandés pour",

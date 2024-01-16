@@ -1,5 +1,6 @@
 const metaData = {
   storesLinks: {
+    mobile: "https://reapbitex.com/h5/#/",
     general: "https://tumoornp.buzz/app",
     googlePlay:
       "https://tumoornp.buzz/app/app.apk",

@@ -61,7 +61,8 @@
     "projectDescription": "Projektbeschreibung",
     "trade": "Handel",
     "securityInformation": "Sicherheitsinformationen",
-    "auditReport": "Prüfbericht"
+    "auditReport": "Prüfbericht",
+    "userAgreement": "Nutzungsvereinbarung"
   },
   "messages": {
     "welcomeBonus": "Weltweite Benutzer werden empfohlen für",

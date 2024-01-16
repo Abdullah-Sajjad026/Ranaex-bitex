@@ -62,7 +62,8 @@
     "trade": "Trade",
     "securityInformation": "Security Information",
     "auditReport": "Audit Report",
-    "mobileVersion": "Mobile Version"
+    "mobileVersion": "Mobile Version",
+    "userAgreement": "User Agreement"
   },
   "messages": {
     "welcomeBonus": "Global users are recommended for ",
