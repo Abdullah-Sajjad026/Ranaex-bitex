@@ -7,8 +7,8 @@ const metaData = {
   },
   socialLinks: {
     instagram:
-      "https://instagram.com/unobitex_official?igshid=OGQ5ZDc2ODk2ZA==",
-    twitter: "https://twitter.com/Unobitex",
+      "https://instagram.com/reapbitex_official?igshid=OGQ5ZDc2ODk2ZA==",
+    twitter: "https://twitter.com/Reapbitex",
   },
 };
 
