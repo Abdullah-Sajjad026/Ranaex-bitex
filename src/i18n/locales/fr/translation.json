@@ -58,7 +58,9 @@
     "buy": "Acheter",
     "convert": "Convertir",
     "projectDescription": "Description du Projet",
-    "trade": "Trader"
+    "trade": "Trader",
+    "securityInformation": "Informations de Sécurité",
+    "auditReport": "Rapport d'Audit",
   },
   "messages": {
     "welcomeBonus": "Bonus de Bienvenue, Jusqu'à ",

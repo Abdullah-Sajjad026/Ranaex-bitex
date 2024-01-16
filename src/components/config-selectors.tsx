@@ -5,11 +5,11 @@ import Select from "react-select";
 import i18n from "@/i18n";
 import useAppSettings from "@/hooks/use-app-settings";
 
-import FlagUS from "@/assets/images/flag-us.png";
-import FlagChina from "@/assets/images/flag-china.png";
-import FlagJapan from "@/assets/images/flag-japan.png";
-import FlagKorea from "@/assets/images/flag-korea.png";
-import FlagGermany from "@/assets/images/flag-german.png";
+import FlagUS from "@/assets/images/flags/flag-us.png";
+import FlagChina from "@/assets/images/flags/flag-china.png";
+import FlagJapan from "@/assets/images/flags/flag-japan.png";
+import FlagKorea from "@/assets/images/flags/flag-korea.png";
+import FlagGermany from "@/assets/images/flags/flag-german.png";
 import FlagFrance from "@/assets/images/flag-france.png";
 
 const labelsMap = {

@@ -38,6 +38,19 @@ export default function SideDrawer({
                 Features
               </Link>
 
+              <Link as={RouterLink} to="/about" onClick={onClose}>
+                About
+              </Link>
+
+              <Link as={RouterLink} to="/security-information" onClick={onClose}>
+                Security Information
+              </Link>
+
+              <Link as={RouterLink} to="/audit-report" onClick={onClose}>
+                Audit Report
+              </Link>
+
+
               <Link href={LOGIN_URL}>Login</Link>
             </VStack>
           </DrawerBody>

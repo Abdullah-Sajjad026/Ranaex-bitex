@@ -10,7 +10,7 @@ import {
 import BrandCTA from "./components/brand-cta";
 import QuickDeposit from "./components/quick-deposit";
 
-import PurchaseDoodle from "@/assets/images/purchase-doodle.png";
+import InviteComissionBanner from "@/assets/images/invite-comission-banner.jpg";
 import FeatureAgileTrade from "./components/feature-agile-trade";
 import TitleBox from "@/components/title-box";
 import CoinsTrends from "@/modules/coins-trends/coins-trends";
@@ -40,7 +40,7 @@ export default function ViewHome() {
           {t("words.userGuide")}
         </Heading>
         <Box display="flex" justifyContent="center">
-          <Image src={PurchaseDoodle} alt="purchase doodle" />
+          <Image src={InviteComissionBanner} alt="purchase doodle" />
         </Box>
         <Button variant="unstyled" fontSize="sm">
           {t("words.buyCrypto")}

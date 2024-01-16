@@ -58,7 +58,9 @@
     "buy": "購入",
     "convert": "変換",
     "projectDescription": "プロジェクトの説明",
-    "trade": "取引"
+    "trade": "取引",
+    "securityInformation": "セキュリティ情報",
+    "auditReport": "監査報告"
   },
   "messages": {
     "welcomeBonus": "ウェルカムボーナス、最大 ",

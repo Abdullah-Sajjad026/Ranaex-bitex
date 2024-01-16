@@ -58,7 +58,9 @@
     "buy": "구매",
     "convert": "전환",
     "projectDescription": "프로젝트 설명",
-    "trade": "거래"
+    "trade": "거래",
+    "securityInformation": "보안 정보",
+    "auditReport": "감사 보고서"
   },
   "messages": {
     "welcomeBonus": "환영 보너스, 최대 ",

@@ -1,6 +1,6 @@
 import { Grid, GridItem, Image, Text } from "@chakra-ui/react";
 
-import AppleIcon from "@/assets/images/app-store.svg";
+import AppleIcon from "@/assets/images/icons/app-store.svg";
 // import Android from "@/assets/images/android.svg";
 // import TestFlight from "@/assets/images/testflight.svg";
 import DownloadIcon from "@/assets/images/icons/download.svg";

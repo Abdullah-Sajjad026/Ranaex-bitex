@@ -31,6 +31,15 @@ export default function Footer() {
         <Link as={RouterLink} to="/features" color="white">
           {t("words.features")}
         </Link>
+
+          <Link as={RouterLink} to="/security-information" color="white">
+              {t("words.securityInformation")}
+          </Link>
+
+          <Link as={RouterLink} to="/audit-report" color="white">
+              {t("words.auditReport")}
+          </Link>
+
       </VStack>
 
       <HStack spacing="4" mt="4" justifyContent="center">
