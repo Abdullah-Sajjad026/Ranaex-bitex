@@ -36,9 +36,9 @@ export default function ViewHome() {
       </Box>
 
       <Box px="4" my="8">
-        <Heading variant="title" mb="3">
-          {t("words.userGuide")}
-        </Heading>
+        {/*<Heading variant="title" mb="3">*/}
+        {/*  {t("words.userGuide")}*/}
+        {/*</Heading>*/}
         <Box display="flex" justifyContent="center">
           <Image src={InviteComissionBanner} alt="purchase doodle" />
         </Box>
