@@ -1,8 +1,9 @@
 import { Grid, GridItem, Image, Text } from "@chakra-ui/react";
 
 import AppleIcon from "@/assets/images/app-store.svg";
-import Android from "@/assets/images/android.svg";
-import TestFlight from "@/assets/images/testflight.svg";
+// import Android from "@/assets/images/android.svg";
+// import TestFlight from "@/assets/images/testflight.svg";
+import DownloadIcon from "@/assets/images/icons/download.svg";
 import metaData from "@/data/metadata";
 
 export default function DownloadCTAs({
@@ -17,24 +18,24 @@ export default function DownloadCTAs({
       title: "App Store",
       link: metaData.storesLinks.appStore,
     },
+    {
+      id: 2,
+      icon: DownloadIcon,
+      title: "Download",
+      link: metaData.storesLinks.general
+    },
     // {
-    //   id: 2,
-    //   icon: GooglePlay,
-    //   title: "Google Play",
-    //   link: metaData.storesLinks.googlePlay
+    //   id: 3,
+    //   icon: Android,
+    //   title: "Android",
+    //   link: metaData.storesLinks.googlePlay,
     // },
-    {
-      id: 3,
-      icon: Android,
-      title: "Android",
-      link: metaData.storesLinks.googlePlay,
-    },
-    {
-      id: 4,
-      icon: TestFlight,
-      title: "TestFlight",
-      link: metaData.storesLinks.testFlight,
-    },
+    // {
+    //   id: 4,
+    //   icon: TestFlight,
+    //   title: "TestFlight",
+    //   link: metaData.storesLinks.testFlight,
+    // },
   ];
 
   return (
@@ -58,6 +59,7 @@ export default function DownloadCTAs({
             alt={download.title}
             // Making image white on dark mode
             filter={mode === "light" ? "none" : "invert(1)"}
+            w="6"
           />
           <Text>{download.title}</Text>
         </GridItem>
