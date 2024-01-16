@@ -24,7 +24,7 @@ import { useMutation, useQuery } from "react-query";
 import { coingeckoUrl, goToLogin } from "@/utils/utils-functions";
 import axios from "axios";
 
-import ImgTwinkle from "@/assets/images/twinkle.svg";
+import ImgTwinkle from "@/assets/images/icons/twinkle.svg";
 import { useEffect, useState } from "react";
 import useAppSettings from "@/hooks/use-app-settings";
 import ReactApexChart from "react-apexcharts";
