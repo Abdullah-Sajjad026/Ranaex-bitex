@@ -1,0 +1,72 @@
+{
+  "pages": {
+    "home": {
+      "heroTitle": "월드 클래스 디지털 자산 거래소",
+      "tradeAnytime": "언제 어디서나 거래하세요!",
+      "compatibleApp": "IOS, Android, Windows 및 Mac과 호환",
+      "startTrading": "즉시 BTC, ETH 및 기타 수백 가지 디지털 자산 거래 시작"
+    },
+    "features": {
+      "worldClassExchange": "월드 클래스 디지털 자산 거래소",
+      "7yearBrand": "7년 브랜드",
+      "7yearBrandDescription": "7년간의 암호화폐 산업 경험",
+      "securityRegulation": "보안 규제",
+      "securityRegulationDescription": "미국 및 캐나다 규제 라이선스 소지",
+      "globalInvestors": "글로벌 투자자",
+      "globalInvestorsDescription": "201개 국가의 사용자",
+      "globalOperation": "글로벌 운영",
+      "globalOperationDescription": "전 세계의 운영 센터",
+
+      "flexibleSavings": "높은 이자율의 유연한 저축",
+      "flexibleSavingsDescription": "APY가 50% 이상인 주요 금융 상품",
+      "customerService": "온라인 고객 서비스",
+      "customerServiceDescription": "가장 인기 있는 통화를 지원하는 거래",
+      "exclusiveCoins": "독점적인 코인 및 다양한 투자",
+      "exclusiveCoinsDescription": "가장 인기 있는 통화를 지원하는 거래"
+    },
+    "coinDetails": {}
+  },
+  "words": {
+    "secure": "안전한",
+    "innovative": "혁신적인",
+    "trustWorthy": "신뢰할 만한",
+    "signUp": "가입하기",
+    "login": "로그인",
+    "logout": "로그아웃",
+    "email": "이메일",
+    "language": "언어",
+    "currency": "통화",
+    "home": "홈",
+    "features": "기능",
+    "appStore": "앱 스토어",
+    "android": "안드로이드",
+    "testFlight": "테스트플라이트",
+    "loadMore": "더 불러오기",
+    "marketTrends": "시장 동향",
+    "quickDeposit": "빠른 입금",
+    "fastNSecure": "빠르고 안전한",
+    "pair": "페어",
+    "price": "가격",
+    "change24H": "24시간 변동",
+    "userGuide": "사용자 가이드",
+    "buyCrypto": "크립토 구매",
+    "deposit": "입금",
+    "error": "오류",
+    "success": "성공",
+    "warning": "경고",
+    "retry": "다시 시도",
+    "buy": "구매",
+    "convert": "전환",
+    "projectDescription": "프로젝트 설명",
+    "trade": "거래"
+  },
+  "messages": {
+    "welcomeBonus": "환영 보너스, 최대 ",
+    "alreadyAccount": "이미 계정이 있나요?",
+    "gotoLogin": "로그인하러 가기",
+    "copyright": "판권 소유",
+    "quicklyConvert": "빠르게 암호화폐로 전환",
+    "somethingWrong": "문제가 발생했습니다. 나중에 다시 시도하세요.",
+    "errorFetchingData": "데이터를 가져오는 중에 오류가 발생했습니다. 나중에 다시 시도하세요."
+  }
+}

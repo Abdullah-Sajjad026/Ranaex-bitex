@@ -1,0 +1,72 @@
+{
+  "pages": {
+    "home": {
+      "heroTitle": "世界クラスのデジタルアセット取引所",
+      "tradeAnytime": "いつでも、どこでも取引！",
+      "compatibleApp": "IOS、Android、Windows、Macと互換性あり",
+      "startTrading": "すぐにBTC、ETH、その他数百のデジタルアセットの取引を開始"
+    },
+    "features": {
+      "worldClassExchange": "世界クラスのデジタルアセット取引所",
+      "7yearBrand": "7年のブランド",
+      "7yearBrandDescription": "7年間の暗号通貨業界の経験",
+      "securityRegulation": "セキュリティ規制",
+      "securityRegulationDescription": "米国とカナダの規制ライセンスを取得",
+      "globalInvestors": "グローバルな投資家",
+      "globalInvestorsDescription": "201ヵ国からのユーザー",
+      "globalOperation": "グローバルな運営",
+      "globalOperationDescription": "世界中の運営拠点",
+
+      "flexibleSavings": "高金利の柔軟な貯蓄",
+      "flexibleSavingsDescription": "APYが50％以上の注目の金融商品",
+      "customerService": "オンラインカスタマーサービス",
+      "customerServiceDescription": "トレーディングで最も人気のある通貨をサポート",
+      "exclusiveCoins": "専用のコインと多様な投資",
+      "exclusiveCoinsDescription": "トレーディングで最も人気のある通貨をサポート"
+    },
+    "coinDetails": {}
+  },
+  "words": {
+    "secure": "安全",
+    "innovative": "革新的",
+    "trustWorthy": "信頼性がある",
+    "signUp": "サインアップ",
+    "login": "ログイン",
+    "logout": "ログアウト",
+    "email": "メール",
+    "language": "言語",
+    "currency": "通貨",
+    "home": "ホーム",
+    "features": "特徴",
+    "appStore": "App Store",
+    "android": "Android",
+    "testFlight": "TestFlight",
+    "loadMore": "さらに読み込む",
+    "marketTrends": "市場のトレンド",
+    "quickDeposit": "クイックデポジット",
+    "fastNSecure": "迅速かつ安全",
+    "pair": "ペア",
+    "price": "価格",
+    "change24H": "24時間の変動",
+    "userGuide": "ユーザーガイド",
+    "buyCrypto": "暗号通貨の購入",
+    "deposit": "デポジット",
+    "error": "エラー",
+    "success": "成功",
+    "warning": "警告",
+    "retry": "再試行",
+    "buy": "購入",
+    "convert": "変換",
+    "projectDescription": "プロジェクトの説明",
+    "trade": "取引"
+  },
+  "messages": {
+    "welcomeBonus": "ウェルカムボーナス、最大 ",
+    "alreadyAccount": "すでにアカウントをお持ちですか？",
+    "gotoLogin": "ログインに進む",
+    "copyright": "全著作権所有",
+    "quicklyConvert": "素早く暗号通貨に変換",
+    "somethingWrong": "何か問題が発生しました。後でもう一度試してください。",
+    "errorFetchingData": "データの取得中にエラーが発生しました。後でもう一度試してください。"
+  }
+}

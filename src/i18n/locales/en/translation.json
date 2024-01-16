@@ -1,0 +1,72 @@
+{
+  "pages": {
+    "home": {
+      "heroTitle": "The World Class Digital Asset Exchange",
+      "tradeAnytime": "Trade anytime, anywhere!",
+      "compatibleApp": "Compatible with IOS, Android, Windows and Mac",
+      "startTrading": "Start trading BTC, ETH and other hundreds of digital assets right away"
+    },
+    "features": {
+      "worldClassExchange": "The World Class Digital Asset Exchange",
+      "7yearBrand": "A 7-Year Brand",
+      "7yearBrandDescription": "7 years crypto industry experience",
+      "securityRegulation": "Security Regulation",
+      "securityRegulationDescription": "Holding US and Canada regulatory licenses",
+      "globalInvestors": "Global Investors",
+      "globalInvestorsDescription": "Users from 201 countries",
+      "globalOperation": "Global Operation",
+      "globalOperationDescription": "Operation centers around the globe",
+
+      "flexibleSavings": "Flexible Savings With High Interest",
+      "flexibleSavingsDescription": "Featured financial products with APY up to 50% +",
+      "customerService": "Online Customer Service",
+      "customerServiceDescription": "Support the most popular currencies for trading",
+      "exclusiveCoins": "Exclusive coins and diversified investments",
+      "exclusiveCoinsDescription": "Support the most popular currencies for trading"
+    },
+    "coinDetails": {}
+  },
+  "words": {
+    "secure": "Secure",
+    "innovative": "Innovative",
+    "trustWorthy": "Trust Worthy",
+    "signUp": "Sign Up",
+    "login": "Login",
+    "logout": "Logout",
+    "email": "Email",
+    "language": "Language",
+    "currency": "Currency",
+    "home": "Home",
+    "features": "Features",
+    "appStore": "App Store",
+    "android": "Android",
+    "testFlight": "TestFlight",
+    "loadMore": "Load More",
+    "marketTrends": "Market Trends",
+    "quickDeposit": "Quick Deposit",
+    "fastNSecure": "Fast And Secure",
+    "pair": "Pair",
+    "price": "Price",
+    "change24H": "Change 24H",
+    "userGuide": "User Guide",
+    "buyCrypto": "Buy Crypto",
+    "deposit": "Deposit",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "retry": "Retry",
+    "buy": "Buy",
+    "convert": "Convert",
+    "projectDescription": "Project Description",
+    "trade": "Trade"
+  },
+  "messages": {
+    "welcomeBonus": "Welcome Bonus, Up to ",
+    "alreadyAccount": "Already Have an Account?",
+    "gotoLogin": "Go To Login",
+    "copyright": "All Rights Reserved",
+    "quicklyConvert": "Quickly convert to cryptocurrencies",
+    "somethingWrong": "Something went wrong. Please try again later.",
+    "errorFetchingData": "There was an error fetching the data. Please try again later."
+  }
+}

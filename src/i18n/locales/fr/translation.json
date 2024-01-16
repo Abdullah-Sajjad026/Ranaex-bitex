@@ -1,0 +1,72 @@
+{
+  "pages": {
+    "home": {
+      "heroTitle": "La Bourse d'Actifs Numériques de Classe Mondiale",
+      "tradeAnytime": "Tradez à tout moment, n'importe où !",
+      "compatibleApp": "Compatible avec IOS, Android, Windows et Mac",
+      "startTrading": "Commencez à trader du BTC, de l'ETH et d'autres centaines d'actifs numériques dès maintenant"
+    },
+    "features": {
+      "worldClassExchange": "La Bourse d'Actifs Numériques de Classe Mondiale",
+      "7yearBrand": "Une Marque de 7 Ans",
+      "7yearBrandDescription": "7 ans d'expérience dans l'industrie de la crypto",
+      "securityRegulation": "Régulation de la Sécurité",
+      "securityRegulationDescription": "Détention de licences réglementaires aux États-Unis et au Canada",
+      "globalInvestors": "Investisseurs Mondiaux",
+      "globalInvestorsDescription": "Utilisateurs de 201 pays",
+      "globalOperation": "Opération Mondiale",
+      "globalOperationDescription": "Centres opérationnels dans le monde entier",
+
+      "flexibleSavings": "Épargne Flexible Avec un Taux d'Intérêt Élevé",
+      "flexibleSavingsDescription": "Produits financiers en vedette avec un rendement pouvant atteindre 50% +",
+      "customerService": "Service Client en Ligne",
+      "customerServiceDescription": "Prise en charge des devises les plus populaires pour le trading",
+      "exclusiveCoins": "Pièces Exclusives et Investissements Diversifiés",
+      "exclusiveCoinsDescription": "Prise en charge des devises les plus populaires pour le trading"
+    },
+    "coinDetails": {}
+  },
+  "words": {
+    "secure": "Sécurisé",
+    "innovative": "Innovant",
+    "trustWorthy": "Digne de Confiance",
+    "signUp": "S'Inscrire",
+    "login": "Se Connecter",
+    "logout": "Se Déconnecter",
+    "email": "E-mail",
+    "language": "Langue",
+    "currency": "Devise",
+    "home": "Accueil",
+    "features": "Fonctionnalités",
+    "appStore": "App Store",
+    "android": "Android",
+    "testFlight": "TestFlight",
+    "loadMore": "Charger Plus",
+    "marketTrends": "Tendances du Marché",
+    "quickDeposit": "Dépôt Rapide",
+    "fastNSecure": "Rapide et Sécurisé",
+    "pair": "Paire",
+    "price": "Prix",
+    "change24H": "Changement 24H",
+    "userGuide": "Guide de l'Utilisateur",
+    "buyCrypto": "Acheter de la Crypto",
+    "deposit": "Dépôt",
+    "error": "Erreur",
+    "success": "Succès",
+    "warning": "Avertissement",
+    "retry": "Réessayer",
+    "buy": "Acheter",
+    "convert": "Convertir",
+    "projectDescription": "Description du Projet",
+    "trade": "Trader"
+  },
+  "messages": {
+    "welcomeBonus": "Bonus de Bienvenue, Jusqu'à ",
+    "alreadyAccount": "Déjà un Compte ?",
+    "gotoLogin": "Aller à la Connexion",
+    "copyright": "Tous droits réservés",
+    "quicklyConvert": "Convertir rapidement en cryptomonnaies",
+    "somethingWrong": "Quelque chose s'est mal passé. Veuillez réessayer plus tard.",
+    "errorFetchingData": "Une erreur s'est produite lors de la récupération des données. Veuillez réessayer plus tard."
+  }
+}

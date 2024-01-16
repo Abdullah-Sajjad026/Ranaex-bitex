@@ -1,0 +1,72 @@
+{
+  "pages": {
+    "home": {
+      "heroTitle": "世界一流的数字资产交易所",
+      "tradeAnytime": "随时随地交易！",
+      "compatibleApp": "兼容IOS、Android、Windows和Mac",
+      "startTrading": "立即开始交易BTC、ETH和其他数百种数字资产"
+    },
+    "features": {
+      "worldClassExchange": "世界一流的数字资产交易所",
+      "7yearBrand": "七年品牌",
+      "7yearBrandDescription": "七年的加密行业经验",
+      "securityRegulation": "安全监管",
+      "securityRegulationDescription": "持有美国和加拿大的监管许可",
+      "globalInvestors": "全球投资者",
+      "globalInvestorsDescription": "来自201个国家的用户",
+      "globalOperation": "全球运营",
+      "globalOperationDescription": "全球各地的运营中心",
+
+      "flexibleSavings": "高利润的灵活储蓄",
+      "flexibleSavingsDescription": "特色金融产品，年化利率高达50%+",
+      "customerService": "在线客户服务",
+      "customerServiceDescription": "支持最流行的交易货币",
+      "exclusiveCoins": "独家币种和多样化投资",
+      "exclusiveCoinsDescription": "支持最流行的交易货币"
+    },
+    "coinDetails": {}
+  },
+  "words": {
+    "secure": "安全",
+    "innovative": "创新",
+    "trustWorthy": "值得信赖",
+    "signUp": "注册",
+    "login": "登录",
+    "logout": "登出",
+    "email": "电子邮件",
+    "language": "语言",
+    "currency": "货币",
+    "home": "首页",
+    "features": "特点",
+    "appStore": "应用商店",
+    "android": "安卓",
+    "testFlight": "测试飞行",
+    "loadMore": "加载更多",
+    "marketTrends": "市场趋势",
+    "quickDeposit": "快速存款",
+    "fastNSecure": "快速且安全",
+    "pair": "货币对",
+    "price": "价格",
+    "change24H": "24小时涨跌",
+    "userGuide": "用户指南",
+    "buyCrypto": "购买加密货币",
+    "deposit": "存款",
+    "error": "错误",
+    "success": "成功",
+    "warning": "警告",
+    "retry": "重试",
+    "buy": "购买",
+    "convert": "兑换",
+    "projectDescription": "项目描述",
+    "trade": "交易"
+  },
+  "messages": {
+    "welcomeBonus": "欢迎奖金，最高 ",
+    "alreadyAccount": "已经有账户？",
+    "gotoLogin": "前往登录",
+    "copyright": "保留所有权利",
+    "quicklyConvert": "快速转换为加密货币",
+    "somethingWrong": "出了些问题，请稍后再试。",
+    "errorFetchingData": "获取数据时出现错误，请稍后再试。"
+  }
+}

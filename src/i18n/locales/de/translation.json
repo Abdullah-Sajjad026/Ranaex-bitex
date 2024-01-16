@@ -1,0 +1,72 @@
+{
+  "pages": {
+    "home": {
+      "heroTitle": "Die Weltklasse-Digital-Asset-Börse",
+      "tradeAnytime": "Handeln Sie jederzeit, überall!",
+      "compatibleApp": "Kompatibel mit IOS, Android, Windows und Mac",
+      "startTrading": "Beginnen Sie sofort mit dem Handel von BTC, ETH und anderen Hunderten von digitalen Vermögenswerten"
+    },
+    "features": {
+      "worldClassExchange": "Die Weltklasse-Digital-Asset-Börse",
+      "7yearBrand": "Eine Marke seit 7 Jahren",
+      "7yearBrandDescription": "7 Jahre Erfahrung in der Kryptoindustrie",
+      "securityRegulation": "Sicherheitsregulierung",
+      "securityRegulationDescription": "Hält US- und kanadische Regulierungslizenzen",
+      "globalInvestors": "Weltweite Investoren",
+      "globalInvestorsDescription": "Nutzer aus 201 Ländern",
+      "globalOperation": "Weltweiter Betrieb",
+      "globalOperationDescription": "Betriebszentren rund um den Globus",
+
+      "flexibleSavings": "Flexible Sparangebote mit hohen Zinsen",
+      "flexibleSavingsDescription": "Ausgewählte Finanzprodukte mit APY bis zu 50% +",
+      "customerService": "Online-Kundenservice",
+      "customerServiceDescription": "Unterstützung der beliebtesten Währungen für den Handel",
+      "exclusiveCoins": "Exklusive Coins und vielfältige Investitionen",
+      "exclusiveCoinsDescription": "Unterstützung der beliebtesten Währungen für den Handel"
+    },
+    "coinDetails": {}
+  },
+  "words": {
+    "secure": "Sicher",
+    "innovative": "Innovativ",
+    "trustWorthy": "Vertrauenswürdig",
+    "signUp": "Registrieren",
+    "login": "Anmelden",
+    "logout": "Abmelden",
+    "email": "E-Mail",
+    "language": "Sprache",
+    "currency": "Währung",
+    "home": "Startseite",
+    "features": "Funktionen",
+    "appStore": "App Store",
+    "android": "Android",
+    "testFlight": "TestFlight",
+    "loadMore": "Mehr laden",
+    "marketTrends": "Markttrends",
+    "quickDeposit": "Schnelle Einzahlung",
+    "fastNSecure": "Schnell und Sicher",
+    "pair": "Paar",
+    "price": "Preis",
+    "change24H": "Veränderung 24h",
+    "userGuide": "Benutzerhandbuch",
+    "buyCrypto": "Krypto kaufen",
+    "deposit": "Einzahlung",
+    "error": "Fehler",
+    "success": "Erfolg",
+    "warning": "Warnung",
+    "retry": "Erneut versuchen",
+    "buy": "Kaufen",
+    "convert": "Konvertieren",
+    "projectDescription": "Projektbeschreibung",
+    "trade": "Handel"
+  },
+  "messages": {
+    "welcomeBonus": "Willkommensbonus, bis zu ",
+    "alreadyAccount": "Bereits einen Account?",
+    "gotoLogin": "Zum Login gehen",
+    "copyright": "Alle Rechte vorbehalten",
+    "quicklyConvert": "Schnell in Kryptowährungen umwandeln",
+    "somethingWrong": "Etwas ist schiefgegangen. Bitte versuchen Sie es später erneut.",
+    "errorFetchingData": "Beim Abrufen der Daten ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
+  }
+}
