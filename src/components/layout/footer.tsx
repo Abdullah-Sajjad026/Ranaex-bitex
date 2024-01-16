@@ -28,6 +28,11 @@ export default function Footer() {
         <Link as={RouterLink} to="/" color="white">
           {t("words.home")}
         </Link>
+
+          <Link as={RouterLink} to="/about" color="white">
+              {t("words.aboutUs")}
+          </Link>
+
         <Link as={RouterLink} to="/features" color="white">
           {t("words.features")}
         </Link>
