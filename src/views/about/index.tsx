@@ -1,6 +1,5 @@
 import {useTranslation} from "react-i18next";
 
-import CertificateASIC from "@/assets/images/asic-certificate.jpg"
 import CertificateUSSMB from '@/assets/images/ussmb-certificate.jpg'
 import {Image} from "@chakra-ui/react";
 import Markdown from "react-markdown";
@@ -22,13 +21,7 @@ export default function ViewAbout() {
 
     return (
         <>
-            <Image
-                src={CertificateASIC}
-                alt="certificate"
-                width="full"
-                position="relative"
-                mt="4"
-            />
+
             <Image
                 src={CertificateUSSMB}
                 alt="certificate"

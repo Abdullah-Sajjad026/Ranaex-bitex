@@ -1,7 +1,6 @@
 import { Box, Center, Heading, Image } from "@chakra-ui/react";
 
-import ImgUSSMBCertified from "@/assets/images/usmsb-licensed.jpg";
-import ImgAISCCertified from "@/assets/images/asic-licensed.jpg"
+import ImgUSSMBCertified from "@/assets/images/usmsb-licensed.jpeg";
 import { useTranslation } from "react-i18next";
 
 export default function QualityExchange() {
@@ -36,9 +35,7 @@ export default function QualityExchange() {
         <Image src={ImgUSSMBCertified} alt="app landing" width="full" />
       </Center>
 
-        <Center>
-            <Image src={ImgAISCCertified} alt="app landing" width="full" />
-        </Center>
+
     </Box>
   );
 }

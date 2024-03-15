@@ -10,7 +10,7 @@ import {
 import BrandCTA from "./components/brand-cta";
 import QuickDeposit from "./components/quick-deposit";
 
-import InviteComissionBanner from "@/assets/images/invite-comission-banner.jpg";
+import InviteComissionBanner from "@/assets/images/invite-comission-banner.jpeg";
 import FeatureAgileTrade from "./components/feature-agile-trade";
 import TitleBox from "@/components/title-box";
 import CoinsTrends from "@/modules/coins-trends/coins-trends";
