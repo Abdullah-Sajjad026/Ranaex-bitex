@@ -18,7 +18,7 @@ export default function QualityExchange() {
         bgPosition="center"
       >
         <Box display="flex" justifyContent="center">
-          <Image src="/logo-square.jpg" alt="app icon" w="60px" />
+          <Image src="/logo-square.jpeg" alt="app icon" w="60px" />
         </Box>
         <Heading
           variant="title"

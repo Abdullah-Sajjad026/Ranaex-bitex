@@ -26,7 +26,7 @@ export default function SideDrawer({
         <DrawerContent>
           <DrawerCloseButton />
           <DrawerHeader>
-            <Image src="/logo-rounded.jpg" alt="logo" w="40px" />
+            <Image src="/logo-rounded.jpeg" alt="logo" w="40px" />
           </DrawerHeader>
 
           <DrawerBody>

@@ -61,7 +61,7 @@ export default function ViewMarketFeatures() {
 
       >
         <Image
-          src={'/logo.jpg'}
+          src={'/logo.jpeg'}
           alt="app banner"
           width="full"
           position="relative"

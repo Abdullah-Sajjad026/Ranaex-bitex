@@ -23,7 +23,7 @@ export default function Header() {
     >
       <LinkBox>
         <LinkOverlay as={RouterLink} to="/">
-          <Image src="/logo.jpg" alt="logo" w="140px" />
+          <Image src="/logo.jpeg" alt="logo" w="140px" />
         </LinkOverlay>
       </LinkBox>
 
