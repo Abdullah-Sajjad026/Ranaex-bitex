@@ -1,4 +1,5 @@
-import { Grid, GridItem, Image, Text } from "@chakra-ui/react";
+import {Grid, GridItem, Image, Text} from "@chakra-ui/react";
+import {Link} from "react-router-dom";
 
 import AppleIcon from "@/assets/images/icons/app-store.svg";
 import Android from "@/assets/images/icons/android.svg";
@@ -7,8 +8,8 @@ import DownloadIcon from "@/assets/images/icons/download.svg";
 import metaData from "@/data/metadata";
 
 export default function DownloadCTAs({
-  mode = "light",
-}: {
+                                       mode = "light",
+                                     }: {
   mode?: "light" | "dark";
 }) {
   const downloads = [
@@ -16,32 +17,28 @@ export default function DownloadCTAs({
       id: 1,
       icon: MobileIcon,
       title: "Mobile App",
-      link: metaData.storesLinks.mobile
+      href: metaData.storesLinks.mobile
     },
     {
       id: 2,
       icon: DownloadIcon,
       title: "Download",
-      link: metaData.storesLinks.general
+      href: metaData.storesLinks.general
     },
     {
       id: 3,
       icon: AppleIcon,
       title: "App Store",
-      link: metaData.storesLinks.appStore,
+      // link: metaData.storesLinks.appStore,
+      link: "/download-app",
     },
     {
       id: 4,
       icon: Android,
       title: "Android",
-      link: metaData.storesLinks.googlePlay,
+      // link: metaData.storesLinks.googlePlay,
+      link: "/download-app",
     },
-    // {
-    //   id: 1,
-    //   icon: TestFlight,
-    //   title: "TestFlight",
-    //   link: metaData.storesLinks.testFlight,
-    // },
   ];
 
   return (
@@ -58,7 +55,10 @@ export default function DownloadCTAs({
           borderRadius="lg"
           gap="2"
           cursor="pointer"
-          onClick={() => window.open(download.link, "_blank")}
+          onClick={download.href ? () => window.open(download.link, "_blank") : undefined}
+          as={download.href ? "a" : Link}
+          to={download.link}
+          href={download.href}
         >
           <Image
             src={download.icon}

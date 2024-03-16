@@ -6,7 +6,7 @@ import {useEffect, useState} from "react";
 
 export default function ViewSecurityInformation() {
 
-    const { t } = useTranslation();
+    // const { t } = useTranslation();
 
     const [markdown, setMarkdown] = useState("");
 
@@ -18,7 +18,6 @@ export default function ViewSecurityInformation() {
 
     return (
         <>
-
             <Markdown >{markdown}</Markdown>
         </>
     )

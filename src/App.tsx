@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes,  } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "react-query";
 
 import { ChakraProvider } from "@chakra-ui/react";
@@ -16,6 +16,7 @@ import ViewAuditReport from "@/views/audit-report.tsx";
 import ViewUserAgreement from "@/views/user-agreement.tsx";
 
 import "./App.css";
+import ViewDownloadApp from "@/views/download-app.tsx";
 
 function App() {
   const queryClient = new QueryClient();
@@ -42,6 +43,7 @@ function App() {
               <Route path="/features" element={<ViewMarketFeatures />} />
               <Route path="/coin/:coin" element={<ViewTradeFiat />} />
               <Route path="/login" element={<ViewLogin />} />
+              <Route path="/download-app" element={<ViewDownloadApp />} />
             </Routes>
           </LayoutWrapper>
         </QueryClientProvider>

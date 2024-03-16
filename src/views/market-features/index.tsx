@@ -1,12 +1,12 @@
 import { Box, Image } from "@chakra-ui/react";
 import QualityExchange from "./components/features/quality-exchange";
 import DownloadCTAs from "@/components/download-ctas";
-import FlexibleSavings from "./components/features/flexible-savings";
 import CustomerService from "./components/features/customer-service";
-import ExclusiveInvestments from "./components/features/exclusive-investments";
-
-import ImgAppBanner from "@/assets/images/logo-banner.png";
-import FeaturesList from "./components/features/features-list";
+// import FlexibleSavings from "./components/features/flexible-savings";
+// import ExclusiveInvestments from "./components/features/exclusive-investments";
+//
+// import ImgAppBanner from "@/assets/images/logo-banner.png";
+// import FeaturesList from "./components/features/features-list";
 
 export default function ViewMarketFeatures() {
   return (
