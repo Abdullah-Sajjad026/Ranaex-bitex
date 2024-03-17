@@ -1,4 +1,4 @@
-import {Grid, GridItem, Image, Text} from "@chakra-ui/react";
+import {Box, Grid, GridItem, Image, Text} from "@chakra-ui/react";
 import {Link} from "react-router-dom";
 
 import AppleIcon from "@/assets/images/icons/app-store.svg";
@@ -29,7 +29,6 @@ export default function DownloadCTAs({
       id: 3,
       icon: AppleIcon,
       title: "App Store",
-      // link: metaData.storesLinks.appStore,
       link: "/download-app",
     },
     {
@@ -43,33 +42,46 @@ export default function DownloadCTAs({
 
   return (
     <Grid templateColumns="repeat(2, 1fr)" gap={4}>
-      {downloads.map((download) => (
-        <GridItem
-          key={download.id}
-          p="4"
-          display="flex"
-          justifyContent="center"
-          alignItems="center"
-          color={mode === "light" ? "brand.black2" : "brand.light"}
-          bgColor={mode === "light" ? "brand.light" : "brand.black2"}
-          borderRadius="lg"
-          gap="2"
-          cursor="pointer"
-          onClick={download.href ? () => window.open(download.link, "_blank") : undefined}
-          as={download.href ? "a" : Link}
-          to={download.link}
-          href={download.href}
-        >
-          <Image
-            src={download.icon}
-            alt={download.title}
-            // Making image white on dark mode
-            filter={mode === "light" ? "none" : "invert(1)"}
-            w="6"
-          />
-          <Text>{download.title}</Text>
-        </GridItem>
-      ))}
+      {downloads.map((download) => {
+
+          const Component = download.href ? "a" : Link;
+
+          return (
+            <GridItem
+              key={download.id}
+              p="4"
+              bgColor={mode === "light" ? "brand.light" : "brand.black2"}
+              borderRadius="lg"
+              cursor="pointer"
+            >
+              <Component
+                href={download.href}
+                to={download.link || ""}
+                target={download.href ? "_blank" : ""}
+                // take to top of page if Link is clicked
+                onClick={() => window.scrollTo(0, 0)}
+              >
+                <Box
+                  display="flex"
+                  justifyContent="center"
+                  alignItems="center"
+                  color={mode === "light" ? "brand.black2" : "brand.light"}
+                  gap="2"
+                >
+                  <Image
+                    src={download.icon}
+                    alt={download.title}
+                    // Making image white on dark mode
+                    filter={mode === "light" ? "none" : "invert(1)"}
+                    w="6"
+                  />
+                  <Text>{download.title}</Text>
+                </Box>
+              </Component>
+            </GridItem>
+          )
+        }
+      )}
     </Grid>
   );
 }
