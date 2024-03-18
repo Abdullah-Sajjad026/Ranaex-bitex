@@ -130,9 +130,9 @@ Social media feeds are seamlessly integrated, adding dynamic elements to the web
 Here are the social media links provided in the website:
 
 - Contact: (00974) 44421924
-- Email: cs@reapbitex.com
-- Twitter: reapbitex
-- Instagram: reapbitex_official
+- Email: cs@yanbitex.com
+- Twitter: yanbitex
+- Instagram: yanbitex_official
 
 ### Analytics and Tracking
 
