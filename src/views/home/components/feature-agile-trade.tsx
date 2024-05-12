@@ -18,7 +18,7 @@ export default function FeatureAgileTrade() {
       </Box>
 
       <Box mt="10">
-        <DownloadCTAs mode="light" />
+        <DownloadCTAs />
       </Box>
     </Box>
   );

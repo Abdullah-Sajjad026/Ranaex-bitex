@@ -16,7 +16,7 @@ export default function ViewMarketFeatures() {
         bgRepeat="no-repeat"
         bgPosition="center"
       >
-        <DownloadCTAs mode="dark" />
+        <DownloadCTAs />
       </Box>
 
       <Box
