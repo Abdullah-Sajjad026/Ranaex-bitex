@@ -1,21 +1,10 @@
-import {
-  Box,
-  Button,
-  Heading,
-  Image,
-  Input,
-  Link,
-  Text,
-} from "@chakra-ui/react";
+import { Box, Button, Text } from "@chakra-ui/react";
 import BrandCTA from "./components/brand-cta";
-import QuickDeposit from "./components/quick-deposit";
 
-import InviteComissionBanner from "@/assets/images/invite-comission-banner.jpeg";
-import FeatureAgileTrade from "./components/feature-agile-trade";
-import TitleBox from "@/components/title-box";
 import CoinsTrends from "@/modules/coins-trends/coins-trends";
-import { LOGIN_URL, goToRegister } from "@/utils/utils-functions";
+import { goToRegister } from "@/utils/utils-functions";
 import { useTranslation } from "react-i18next";
+import FeatureAgileTrade from "./components/feature-agile-trade";
 
 export default function ViewHome() {
   const { t } = useTranslation();
@@ -23,50 +12,37 @@ export default function ViewHome() {
   return (
     <>
       <BrandCTA />
-      <QuickDeposit />
+      {/* <QuickDeposit /> */}
 
-      <Box my="8" px="4">
-        <Heading variant="title" mb="3">
-          {t("words.marketTrends")}
-        </Heading>
-
-        <Box>
-          <CoinsTrends />
-        </Box>
-      </Box>
-
-      <Box px="4" my="8">
-        {/*<Heading variant="title" mb="3">*/}
-        {/*  {t("words.userGuide")}*/}
-        {/*</Heading>*/}
-        <Box display="flex" justifyContent="center">
-          <Image src={InviteComissionBanner} alt="purchase doodle" />
-        </Box>
-        <Button variant="unstyled" fontSize="sm">
-          {t("words.buyCrypto")}
-        </Button>
+      <Box my="14" px="4">
+        <CoinsTrends />
       </Box>
 
       <FeatureAgileTrade />
 
-      <Box my="6" px="4">
-        <TitleBox
-          title={t("words.signUp")}
-          subtitle={t("pages.home.startTrading")}
-        />
-        <Box mt="4">
-          <Input placeholder={t("words.email")} mb="2" bgColor="brand.light" />
-          <Button w="full" onClick={goToRegister}>
-            {t("words.signUp")}
-          </Button>
-
-          <Box mt="5">
-            <Text textAlign="center" fontSize="sm">
-              {t("messages.alreadyAccount")}{" "}
-              <Link href={LOGIN_URL}>{t("messages.gotoLogin")}</Link>
-            </Text>
-          </Box>
-        </Box>
+      <Box
+        mt="14"
+        px="4"
+        py="12"
+        backgroundColor="brand.light"
+        gap="1rem"
+        display="flex"
+        flexDirection="column"
+        alignItems="center"
+        justifyContent="center"
+        textAlign="center"
+      >
+        <Text fontSize="1.4rem">
+          For Verified Users
+          <br /> Get up to{" "}
+          <Box display="inline" color="brand.primary">
+            100 USDT
+          </Box>{" "}
+          in rewards
+        </Text>
+        <Button borderTopLeftRadius={0} onClick={goToRegister}>
+          {t("words.signUp")}
+        </Button>
       </Box>
     </>
   );

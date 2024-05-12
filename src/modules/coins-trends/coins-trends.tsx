@@ -9,16 +9,15 @@ import {
   Button,
   Center,
   Spinner,
+  Stack,
   Table,
   TableContainer,
   Tbody,
   Td,
   Text,
-  Tfoot,
   Th,
   Thead,
   Tr,
-  VStack,
 } from "@chakra-ui/react";
 import axios from "axios";
 import { useEffect, useState } from "react";
@@ -112,12 +111,12 @@ export default function CoinsTrends({
                 <Tr key={item.id}>
                   <Link to={`/coin/${item.id}`}>
                     <Td pl="0">
-                      <VStack alignItems="start" spacing="2">
-                        <Text>{item.symbol}</Text>
+                      <Stack direction="row" alignItems="start" spacing="2">
+                        <Text color="brand.black">{item.symbol}</Text>
                         <Text fontSize="xs" color="brand.muted">
                           {item.name}
                         </Text>
-                      </VStack>
+                      </Stack>
                     </Td>
                   </Link>
                   <Td isNumeric>
@@ -133,6 +132,7 @@ export default function CoinsTrends({
                         : "red.500"
                     }
                   >
+                    {Number(item.changePercent24Hr) > 0 ? "+" : "-"}{" "}
                     {Number(item.changePercent24Hr).toFixed(2)}%
                   </Td>
                 </Tr>
@@ -141,7 +141,7 @@ export default function CoinsTrends({
           </Table>
 
           {allowMore && (
-            <Center width="full">
+            <Center width="full" mt="8">
               <Button
                 variant="ghost"
                 onClick={() => {

@@ -1,3 +1,4 @@
+import { Box } from "@chakra-ui/react";
 import ConfigSelectors from "../config-selectors";
 import Footer from "./footer";
 import Header from "./header";
@@ -11,8 +12,9 @@ export default function LayoutWrapper({
     <>
       <Header />
       <main>{children}</main>
-      <ConfigSelectors />
-
+      <Box display="none">
+        <ConfigSelectors />
+      </Box>
       <Footer />
     </>
   );

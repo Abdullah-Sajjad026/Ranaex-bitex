@@ -1,8 +1,8 @@
-import { Link as RouterLink } from "react-router-dom";
-import { Box, HStack, Link, Text, VStack } from "@chakra-ui/react";
-import { IconBrandTwitter, IconBrandInstagram } from "@tabler/icons-react";
 import metaData from "@/data/metadata";
+import { Box, HStack, Link, Text, VStack } from "@chakra-ui/react";
+import { IconBrandInstagram, IconBrandTwitter } from "@tabler/icons-react";
 import { useTranslation } from "react-i18next";
+import { Link as RouterLink } from "react-router-dom";
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -29,26 +29,25 @@ export default function Footer() {
           {t("words.home")}
         </Link>
 
-          <Link as={RouterLink} to="/about" color="white">
-              {t("words.aboutUs")}
-          </Link>
-
-        <Link as={RouterLink} to="/features" color="white">
-          {t("words.features")}
+        <Link as={RouterLink} to="/about" color="white">
+          {t("words.aboutUs")}
         </Link>
 
-          <Link as={RouterLink} to="/security-information" color="white">
-              {t("words.securityInformation")}
-          </Link>
+        {/* <Link as={RouterLink} to="/features" color="white">
+          {t("words.features")}
+        </Link> */}
 
-          <Link as={RouterLink} to="/audit-report" color="white">
-              {t("words.auditReport")}
-          </Link>
+        <Link as={RouterLink} to="/security-information" color="white">
+          {t("words.securityInformation")}
+        </Link>
+
+        <Link as={RouterLink} to="/audit-report" color="white">
+          {t("words.auditReport")}
+        </Link>
 
         <Link as={RouterLink} to="/user-agreement" color="white">
           {t("words.userAgreement")}
         </Link>
-
       </VStack>
 
       <HStack spacing="4" mt="4" justifyContent="center">

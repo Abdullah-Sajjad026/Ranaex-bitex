@@ -71,6 +71,7 @@
     "copyright": "Alle Rechte vorbehalten",
     "quicklyConvert": "Schnell in Kryptowährungen umwandeln",
     "somethingWrong": "Etwas ist schiefgegangen. Bitte versuchen Sie es später erneut.",
-    "errorFetchingData": "Beim Abrufen der Daten ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
+    "errorFetchingData": "Beim Abrufen der Daten ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
+    "usersTrust": "Benutzer vertrauen uns"
   }
 }

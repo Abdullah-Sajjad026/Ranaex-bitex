@@ -1,36 +1,33 @@
-import {useTranslation} from "react-i18next";
+import { useTranslation } from "react-i18next";
 
-import CertificateUSSMB from '@/assets/images/ussmb-certificate.jpg'
-import {Image} from "@chakra-ui/react";
+import CertificateUSSMB from "@/assets/images/ussmb-certificate.jpg";
+import { Box, Image } from "@chakra-ui/react";
 import Markdown from "react-markdown";
 
-import file from "@/data/about-us.md"
-import {useEffect, useState} from "react";
+import file from "@/data/about-us.md";
+import { useEffect, useState } from "react";
 
 export default function ViewAbout() {
+  const { t } = useTranslation();
 
-    const { t } = useTranslation();
+  const [markdown, setMarkdown] = useState("");
 
-    const [markdown, setMarkdown] = useState("");
+  useEffect(() => {
+    fetch(file)
+      .then((res) => res.text())
+      .then((text) => setMarkdown(text));
+  }, []);
 
-    useEffect(() => {
-        fetch(file)
-            .then((res) => res.text())
-            .then((text) => setMarkdown(text));
-    }, []);
-
-    return (
-        <>
-
-            <Image
-                src={CertificateUSSMB}
-                alt="certificate"
-                width="full"
-                position="relative"
-                my="4"
-            />
-
-            <Markdown >{markdown}</Markdown>
-        </>
-    )
+  return (
+    <Box p="6">
+      <Image
+        src={CertificateUSSMB}
+        alt="certificate"
+        width="full"
+        position="relative"
+        my="4"
+      />
+      <Markdown>{markdown}</Markdown>
+    </Box>
+  );
 }

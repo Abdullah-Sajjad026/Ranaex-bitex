@@ -72,6 +72,7 @@
     "copyright": "All Rights Reserved",
     "quicklyConvert": "Quickly convert to cryptocurrencies",
     "somethingWrong": "Something went wrong. Please try again later.",
-    "errorFetchingData": "There was an error fetching the data. Please try again later."
+    "errorFetchingData": "There was an error fetching the data. Please try again later.",
+    "usersTrust": "Users Trust Us"
   }
 }

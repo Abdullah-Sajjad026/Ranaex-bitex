@@ -71,6 +71,7 @@
     "copyright": "Tous droits réservés",
     "quicklyConvert": "Convertir rapidement en cryptomonnaies",
     "somethingWrong": "Quelque chose s'est mal passé. Veuillez réessayer plus tard.",
-    "errorFetchingData": "Une erreur s'est produite lors de la récupération des données. Veuillez réessayer plus tard."
+    "errorFetchingData": "Une erreur s'est produite lors de la récupération des données. Veuillez réessayer plus tard.",
+    "usersTrust": "Les utilisateurs nous font confiance"
   }
 }

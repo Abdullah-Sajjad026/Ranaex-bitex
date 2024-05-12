@@ -1,16 +1,16 @@
-import { useState } from "react";
 import { Box, HStack, Heading, Image, Text } from "@chakra-ui/react";
+import { useState } from "react";
 import Select from "react-select";
 
-import i18n from "@/i18n";
 import useAppSettings from "@/hooks/use-app-settings";
+import i18n from "@/i18n";
 
-import FlagUS from "@/assets/images/flags/flag-us.png";
 import FlagChina from "@/assets/images/flags/flag-china.png";
+import FlagFrance from "@/assets/images/flags/flag-france.png";
+import FlagGermany from "@/assets/images/flags/flag-german.png";
 import FlagJapan from "@/assets/images/flags/flag-japan.png";
 import FlagKorea from "@/assets/images/flags/flag-korea.png";
-import FlagGermany from "@/assets/images/flags/flag-german.png";
-import FlagFrance from "@/assets/images/flags/flag-france.png";
+import FlagUS from "@/assets/images/flags/flag-us.png";
 
 const labelsMap = {
   en: (
@@ -83,24 +83,10 @@ export default function ConfigSelectors() {
           Language
         </Heading>
         <Select
-          // bg="brand.light"
-          // styles={{
-          //   background: "brand.light",
-          // }}
           options={options}
           value={selectedLanguage}
           onChange={chooseLanguage}
         />
-        {/* <option value="en">
-              <Image src={FlagUS} alt="flag us" mr="2" width="20" height="20" />
-              English
-          </option>
-          <option value="zh">繁體中文</option>
-          <option value="ja">にほんご</option>
-          <option value="ko">한국어</option>
-          <option value="de">Deutsch</option>
-          <option value="fr">Français</option>
-        </Select> */}
       </Box>
       <Box flexGrow={1}>
         <Heading fontSize="sm" mb="2" fontWeight="normal">

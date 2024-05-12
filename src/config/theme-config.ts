@@ -1,29 +1,37 @@
 import { defineStyleConfig, extendTheme } from "@chakra-ui/react";
 
 const fonts = {
-  body: "Inter, Helvetica, sans-serif",
-  heading: "Inter, Helvetica, sans-serif",
+  body: "IBM Plex Sans, Helvetica, sans-serif",
+  heading: "IBM Plex Sans, Helvetica, sans-serif",
 };
 
 const components = {
   Button: defineStyleConfig({
     baseStyle: {
-      color: "white",
+      color: "brand.black",
       fontWeight: "normal",
-      bgColor: "brand.blue",
+      bgColor: "brand.primary",
       _hover: {
         opacity: 0.9,
       },
     },
 
     variants: {
+      default: {
+        color: "brand.black",
+        fontWeight: "normal",
+        bgColor: "brand.primary",
+        _hover: {
+          opacity: 0.9,
+        },
+      },
       outline: {
         border: "1.2px solid",
-        borderColor: "brand.blue",
-        color: "brand.blue",
+        borderColor: "brand.primary",
+        color: "brand.primary",
         _hover: {
           color: "white",
-          bgColor: "brand.blue",
+          bgColor: "brand.primary",
           opacity: 1,
         },
       },
@@ -31,16 +39,16 @@ const components = {
         borderWidth: "1.2px",
         borderColor: "transparent",
         bgColor: "white",
-        color: "brand.blue",
+        color: "brand.primary",
         _hover: {
           color: "white",
-          bgColor: "brand.blue",
+          bgColor: "brand.primary",
           opacity: 1,
         },
       },
     },
     defaultProps: {
-      colorScheme: "brand.blue",
+      variant: "default",
     },
   }),
 
@@ -58,7 +66,7 @@ const components = {
   }),
   Link: defineStyleConfig({
     baseStyle: {
-      color: "brand.blue",
+      color: "brand.primary",
       fontWeight: "normal",
       _hover: {
         color: "brand.dark",
@@ -84,9 +92,9 @@ const components = {
 
 const colors = {
   brand: {
-    blue: "#6689FF",
+    primary: "#FCD535",
     green: "#34B690",
-    black: "#1E1F23",
+    black: "#202630",
     black2: "#1C1D1F",
     dark: "#36332B",
     light: "#F5F5F5",
@@ -100,7 +108,7 @@ const styles = {
       fontSize: "15px",
     },
     a: {
-      color: "brand.blue",
+      color: "brand.black",
       fontWeight: "normal",
       _hover: {
         color: "brand.dark",

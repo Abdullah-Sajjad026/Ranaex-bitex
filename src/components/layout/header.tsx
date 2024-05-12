@@ -1,4 +1,3 @@
-import { Link as RouterLink } from "react-router-dom";
 import {
   Box,
   IconButton,
@@ -8,6 +7,7 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 import { IconMenu } from "@tabler/icons-react";
+import { Link as RouterLink } from "react-router-dom";
 import SideDrawer from "./sidebar-drawer";
 
 export default function Header() {
@@ -23,13 +23,14 @@ export default function Header() {
     >
       <LinkBox>
         <LinkOverlay as={RouterLink} to="/">
-          <Image src="/logo.jpeg" alt="logo" w="140px" />
+          <Image src="/logo.svg" alt="logo" w="140px" />
         </LinkOverlay>
       </LinkBox>
 
       <IconButton
         size="sm"
         variant="outline"
+        color="brand.black"
         icon={<IconMenu width="18" />}
         aria-label="Menu"
         onClick={onOpen}
