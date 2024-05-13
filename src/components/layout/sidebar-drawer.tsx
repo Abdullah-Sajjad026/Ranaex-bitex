@@ -50,16 +50,16 @@ export default function SideDrawer({
 
               <Link
                 as={RouterLink}
-                to="/about"
+                to="https://ranaex.com/about?type=1"
                 onClick={onClose}
                 color="brand.black"
               >
-                About
+                About Us
               </Link>
 
               <Link
                 as={RouterLink}
-                to="/security-information"
+                to="https://ranaex.com/about?type=8"
                 onClick={onClose}
                 color="brand.black"
               >
@@ -68,16 +68,16 @@ export default function SideDrawer({
 
               <Link
                 as={RouterLink}
-                to="/audit-report"
+                to="https://ranaex.com/about?type=2"
                 onClick={onClose}
                 color="brand.black"
               >
-                Audit Report
+                Legal Statement
               </Link>
 
               <Link
                 as={RouterLink}
-                to="/user-agreement"
+                to="https://ranaex.com/about?type=9"
                 onClick={onClose}
                 color="brand.black"
               >

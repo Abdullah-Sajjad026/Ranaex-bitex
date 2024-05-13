@@ -29,24 +29,36 @@ export default function Footer() {
           {t("words.home")}
         </Link>
 
-        <Link as={RouterLink} to="/about" color="white">
+        <Link
+          as={RouterLink}
+          to="https://ranaex.com/about?type=1"
+          color="white"
+        >
           {t("words.aboutUs")}
         </Link>
 
-        {/* <Link as={RouterLink} to="/features" color="white">
-          {t("words.features")}
-        </Link> */}
-
-        <Link as={RouterLink} to="/security-information" color="white">
+        <Link
+          as={RouterLink}
+          to="https://ranaex.com/about?type=8"
+          color="white"
+        >
           {t("words.securityInformation")}
         </Link>
 
-        <Link as={RouterLink} to="/audit-report" color="white">
-          {t("words.auditReport")}
+        <Link
+          as={RouterLink}
+          to="https://ranaex.com/about?type=2"
+          color="white"
+        >
+          Legal Statement
         </Link>
 
-        <Link as={RouterLink} to="/user-agreement" color="white">
-          {t("words.userAgreement")}
+        <Link
+          as={RouterLink}
+          to="https://ranaex.com/about?type=9"
+          color="white"
+        >
+          User Agreement
         </Link>
       </VStack>
 

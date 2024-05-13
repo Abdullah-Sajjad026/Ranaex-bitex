@@ -4,20 +4,21 @@ import { Link } from "react-router-dom";
 import AppStoreCTA from "@/assets/images/appstore-cta.svg";
 import GooglePlayCTA from "@/assets/images/playstore-cta.svg";
 import TestFlightCTA from "@/assets/images/testflight-cta.svg";
+import metaData from "@/data/metadata";
 
 export default function DownloadCTAs() {
   const downloads = [
     {
       icon: AppStoreCTA,
-      href: "/download-app",
+      href: metaData.storesLinks.appStore,
     },
     {
       icon: GooglePlayCTA,
-      href: "/download-app",
+      href: metaData.storesLinks.googlePlay,
     },
     {
       icon: TestFlightCTA,
-      href: "/download-app",
+      href: metaData.storesLinks.testFlight,
     },
   ];
 
