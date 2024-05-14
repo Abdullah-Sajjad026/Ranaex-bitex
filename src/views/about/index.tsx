@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 
-import CertificateUSSMB from "@/assets/images/ussmb-certificate.jpg";
+import CertificateUSSMB from "@/assets/images/ussmb-certificate.jpeg";
 import { Box, Image } from "@chakra-ui/react";
 import Markdown from "react-markdown";
 

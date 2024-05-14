@@ -50,7 +50,7 @@ export default function SideDrawer({
 
               <Link
                 as={RouterLink}
-                to="https://ranaex.com/about?type=1"
+                to="/about"
                 onClick={onClose}
                 color="brand.black"
               >

@@ -29,11 +29,7 @@ export default function Footer() {
           {t("words.home")}
         </Link>
 
-        <Link
-          as={RouterLink}
-          to="https://ranaex.com/about?type=1"
-          color="white"
-        >
+        <Link as={RouterLink} to="/about" color="white">
           {t("words.aboutUs")}
         </Link>
 
