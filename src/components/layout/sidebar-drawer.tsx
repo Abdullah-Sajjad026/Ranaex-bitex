@@ -59,7 +59,7 @@ export default function SideDrawer({
 
               <Link
                 as={RouterLink}
-                to="https://ranaex.com/about?type=8"
+                to="/security-information"
                 onClick={onClose}
                 color="brand.black"
               >
@@ -68,7 +68,7 @@ export default function SideDrawer({
 
               <Link
                 as={RouterLink}
-                to="https://ranaex.com/about?type=2"
+                to="/legal-statement"
                 onClick={onClose}
                 color="brand.black"
               >
@@ -77,7 +77,7 @@ export default function SideDrawer({
 
               <Link
                 as={RouterLink}
-                to="https://ranaex.com/about?type=9"
+                to="/user-agreement"
                 onClick={onClose}
                 color="brand.black"
               >

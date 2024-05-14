@@ -1,13 +1,10 @@
-import { useTranslation } from "react-i18next";
 import Markdown from "react-markdown";
 
-import file from "@/data/audit-report.md";
+import file from "@/data/legal-statement.md";
 import { Box } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 
-export default function ViewAuditReport() {
-  const { t } = useTranslation();
-
+export default function ViewLegalStatement() {
   const [markdown, setMarkdown] = useState("");
 
   useEffect(() => {

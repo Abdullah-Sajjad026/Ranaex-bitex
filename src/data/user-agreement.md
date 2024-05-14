@@ -1,45 +1,46 @@
-User Agreements
+# User Agreement
 
-**Ranaex User Agreements**
+Welcome to RANAEX By accessing or using our services, you agree to be bound by the terms and conditions outlined in this User Agreement. Please read this agreement carefully before using RANAEX's services.
 
-Privacy Policy
+## 1. Eligibility
 
-Ranaex Fintech Limited built the Ranaex app as a Free app. This SERVICE is provided by Ranaex Fintech Limited at no cost and is intended for use as is.
+You must be at least 18 years old and legally capable of entering into contracts to use RANAEX's services. By using our platform, you represent and warrant that you meet these eligibility requirements.
 
-This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decides to use our Service.
+## 2. Registration and Account Security
 
-If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.
+To access certain features of RANAEX, you may need to register for an account. You agree to provide accurate, current, and complete information during the registration process and to keep your account information updated. You are responsible for maintaining the security of your account credentials and for any activity that occurs under your account.
 
-The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Ranaex Fintech Limited unless otherwise defined in this Privacy Policy.
+## 3. Compliance with Laws
 
-Information Collection and Use
+As a Money Services Business (MSB) licensed in the USA, RANAEX is subject to strict compliance with federal and state regulations, including but not limited to the Bank Secrecy Act (BSA) and the USA PATRIOT Act. You agree to comply with all applicable laws, regulations, and third-party agreements when using RANAEX's services. You are solely responsible for ensuring that your use of our platform is lawful in your jurisdiction.
 
-For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information. The information that we request will be retained by us and used as described in this privacy policy.
+## 4. Prohibited Activities
 
-The app does use third party services that may collect information used to identify you.
+You agree not to engage in any prohibited activities when using RANAEX's services, including but not limited to:
 
-Link to privacy policy of third party service providers used by the app:
+- Violating any laws, regulations, or third-party rights
+- Using RANAEX for any illegal or fraudulent purposes
+- Impersonating any person or entity
+- Interfering with the operation of RANAEX or its users' access to the platform
 
-- [Google Play Services](https://www.google.com/policies/privacy/)
+## 5. Risk Disclosure
 
-ANTI-MONEY LAUNDERING AND COUNTER TERRORISM FINANCING REGULATIONS (AML AND CTF REGULATIONS)
+Trading cryptocurrencies involves inherent risks, including but not limited to market volatility, regulatory changes, and security breaches. You acknowledge and accept these risks and agree that RANAEX is not liable for any losses incurred as a result of your trading activities.
 
-As part of the global initiative to combat financial crimes, especially Money Laundering (ML) and Terrorism Financing (TF), we have regulatory obligations that include implementing Customer Due Diligence (CDD) measures.
+## 6. Intellectual Property
 
-This means we are legally obliged to know who our customers are, and we fulfill this requirement by requesting information from you, including personal information, to authenticate and verify your identity.
+All content and materials on RANAEX's platform, including but not limited to logos, trademarks, and software, are the property of RANAEX or its licensors and are protected by intellectual property laws. You agree not to use, reproduce, or distribute any content from RANAEX without prior written permission.
 
-Such information may include your full name, home address, phone number, email address, date of birth, country of residence, nationality, government-issued identification, tax identification number, social security, bank account information, a liveness video or photograph, the purpose of the transaction, and the source of your funds ("Customer Due Diligence Documents").
+## 7. Limitation of Liability
 
-The nature and extent of the information we request may differ based on our risk assessment policy. In some instances, we may contact you to obtain additional Customer Due Diligence Documents, and we will not be able to process your order until the information requested is provided in a timely manner and to our satisfaction.
+To the fullest extent permitted by law, RANAEX shall not be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in any way connected with your use of our platform.
 
-You confirm that all information you provide to us is accurate and complete and agree to keep us updated if any information provided changes.
+## 8. Modification of Terms
 
-You consent to the collection of information and permit us to keep records of such information, which will be stored in accordance with applicable data protection laws. For more details, please read the Privacy Policy.
+RANAEX reserves the right to modify or update these terms at any time without prior notice. It is your responsibility to review the User Agreement periodically for changes. Your continued use of RANAEX's services after any modifications to the terms constitutes acceptance of those changes.
 
-You also authorize us to make inquiries, whether directly or through third parties, that we consider necessary to verify your identity. When we carry out these inquiries, you acknowledge and agree that your personal information may be disclosed to credit reference, fraud prevention, or financial crime agencies.
+## 9. Governing Law and Dispute Resolution
 
-Log Data
+This User Agreement shall be governed by and construed in accordance with the laws of the United States of America. Any disputes arising out of or relating to this agreement shall be resolved through arbitration in accordance with the rules of the American Arbitration Association (AAA).
 
-We want to inform you that whenever you use our Service, in a case of an error in the app, we collect data and information (through third-party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol ("IP") address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics.
-
-2024-01-15 17:02:02
+2024-01-10 19:18:17

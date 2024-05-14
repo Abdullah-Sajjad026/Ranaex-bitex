@@ -1,19 +1,51 @@
-Security Information
+# Privacy Policy
 
-**Ranaex Information Security Policy**
+At RANAEX, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy outlines how we collect, use, and disclose your information when you use our services. By accessing or using RANAEX's platform, you consent to the terms outlined in this Privacy Policy.
 
-Ranaex Fintech Limited (hereinafter referred to as "Ranaex") recognizes the paramount importance of ensuring the security of information assets entrusted to us by our valued customers and partners. Committed to upholding the highest standards of information security, Ranaex adheres to all relevant laws, ordinances, and regulations governing the safeguarding of information assets. Our commitment is driven by the desire to earn and maintain the trust of our customers and partners, enhance the quality of our services, and ensure the stable continuity of our business operations.
+## 1. Information Collection and Use
 
-**Definition of Information Assets:** In the context of this fundamental policy, information assets encompass the data entrusted to Ranaex by its customers and partners. This also includes confidential information owned by Ranaex, stored across various media or documents. Additionally, it extends to the hardware, software, and networks that constitute Ranaex's information systems.
+We may collect certain personally identifiable information from you when you use RANAEX's services, including but not limited to:
 
-**Information Security Management Structure:** To ensure the appropriate use and safeguarding of information assets against unauthorized access, loss, forgery, leakage, and other potential risks, Ranaex establishes and operates a robust management structure.
+- Name
+- Email address
+- Date of birth
+- Address
+- Phone number
+- Government-issued identification
+- Tax identification number
+- Bank account information
+- Transaction history
 
-- **Information Asset Manager:** An Information Asset Manager is appointed to oversee the safeguarding and proper management of information assets. This role is integral to maintaining the integrity and security of entrusted information.
+We use this information to provide and improve our services, verify your identity, comply with legal and regulatory requirements, and communicate with you about your account and transactions.
 
-- **Employee Education and Training:** Ranaex places a high priority on information security literacy. Periodic education and training sessions are conducted for our employees and relevant third parties. These initiatives aim to enhance awareness, ensuring that all personnel are equipped to manage information assets responsibly and in compliance with established security protocols.
+## 2. Third-Party Services
 
-**Continuous Improvement:** Ranaex is dedicated to the continual improvement of its information security measures. Regular reviews and updates to our security protocols are undertaken to address emerging threats and challenges in the dynamic landscape of information security.
+RANAEX may use third-party services, such as analytics providers and payment processors, to facilitate our services. These third parties may collect information about your use of RANAEX's platform, which may include personal information. We encourage you to review the privacy policies of these third-party services to understand how they collect, use, and disclose your information.
 
-By adhering to these principles, Ranaex strives to create a secure environment for information assets, demonstrating our commitment to the trust and confidence placed in us by our customers and partners. This Information Security Policy is a living document, subject to periodic review and refinement to meet the evolving needs of our business and the information security landscape.
+## 3. Anti-Money Laundering and Know Your Customer (AML/KYC) Compliance
 
-2023-12-12 17:51:11
+As a Money Services Business (MSB) licensed in the USA, RANAEX is required to implement Customer Due Diligence (CDD) measures, including Anti-Money Laundering (AML) and Know Your Customer (KYC) procedures. We may request certain documents and information from you to authenticate and verify your identity, comply with legal and regulatory requirements, and mitigate the risk of financial crimes.
+
+## 4. Log Data and Cookies
+
+When you use RANAEX's platform, we may collect certain information automatically, including:
+
+- Device information (e.g., IP address, device type)
+- Usage data (e.g., pages visited, time spent on the platform)
+- Cookies and similar technologies
+
+We use this information to analyze trends, administer the platform, track users' movements, and gather demographic information. You can opt out of cookies by adjusting your browser settings, but please note that some features of RANAEX may not function properly if cookies are disabled.
+
+## 5. Data Security
+
+RANAEX employs commercially reasonable security measures to protect your personal information from unauthorized access, use, or disclosure. However, please be aware that no method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee the absolute security of your information.
+
+## 6. Children's Privacy
+
+RANAEX's services are not intended for individuals under the age of 18. We do not knowingly collect personal information from children under 18. If you are a parent or guardian and believe that your child has provided us with personal information, please contact us, and we will take appropriate action to remove the information from our systems.
+
+## 7. Changes to This Privacy Policy
+
+RANAEX reserves the right to update or modify this Privacy Policy at any time without prior notice. We will post the updated Privacy Policy on our website and indicate the date of the last update. Your continued use of RANAEX's services after any changes to this Privacy Policy constitutes acceptance of those changes.
+
+2024-01-10 19:26:43
