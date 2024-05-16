@@ -22,7 +22,7 @@ export default function BrandCTA() {
         </Box>
       </Heading>
 
-      <Button w="70%" borderTopLeftRadius={0} onClick={goToRegister}>
+      <Button w="70%" onClick={goToRegister}>
         {t("words.signUp")}
       </Button>
 

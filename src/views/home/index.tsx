@@ -40,7 +40,7 @@ export default function ViewHome() {
           </Box>{" "}
           in rewards
         </Text>
-        <Button borderTopLeftRadius={0} onClick={goToRegister}>
+        <Button onClick={goToRegister}>
           {t("words.signUp")}
         </Button>
       </Box>

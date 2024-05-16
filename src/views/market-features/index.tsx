@@ -34,7 +34,7 @@ export default function ViewMarketFeatures() {
         }}
       >
         <Image
-          src={"/logo.svg"}
+          src={"/logo.png"}
           alt="app banner"
           width="60%"
           mx="auto"
