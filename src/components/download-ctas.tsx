@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 import AppStoreCTA from "@/assets/images/appstore-cta.svg";
 import GooglePlayCTA from "@/assets/images/playstore-cta.svg";
-import TestFlightCTA from "@/assets/images/testflight-cta.svg";
 import metaData from "@/data/metadata";
 
 export default function DownloadCTAs() {
@@ -16,10 +15,10 @@ export default function DownloadCTAs() {
       icon: GooglePlayCTA,
       href: metaData.storesLinks.googlePlay,
     },
-    {
-      icon: TestFlightCTA,
-      href: metaData.storesLinks.testFlight,
-    },
+    // {
+    //   icon: TestFlightCTA,
+    //   href: metaData.storesLinks.testFlight,
+    // },
   ];
 
   return (
